@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+	<title>WarnerBros | WB Movies, TV and more</title>
+	
+	<!--Bootstrap CSS-->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/styles.css"/>
+	
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-black">
+		<div class="container-fluid">
+			<a class="navbar-brand" aria-current="page" href="#">
+				<img src="images/logo.svg" alt="WarnerBros" width="50" height="40"/>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">				
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!--ms-auto right aligns the nav elements-->
+					<li class="nav-item pe-3"> <!--pe-3 sets padding-right to space the elements-->
+						<a class="nav-link" href="movies.html">Movies</a>
+					</li>
+					<li class="nav-item pe-3">
+						<a class="nav-link" href="tvshows.html">TV Shows</a>
+					</li>
+					<li class="nav-item pe-3">
+						<a class="nav-link" href="games&apps.html">Games & Apps</a>
+					</li>
+					<li class="nav-item pe-3">
+						<a class="nav-link" href="collections.html">Collections</a>
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="feedback.html">Feedback</a>
+					</li>
+				</ul>
+				<form class="d-flex" role="search">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+					<button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button> <!--search text replaced with icon-->
+				</form>
+			</div>
+		</div>
+	</nav>
+	<main>
+		<header id="hero-banner" class="carousel slide">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#hero-banner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#hero-banner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#hero-banner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/banner01.jpg" class="d-block w-100" alt="FURIOSA: A MAD MAX SAGA"/>
+					<div class="carousel-caption">
+						<h1 class="carousel-title">FURIOSA: A MAD MAX SAGA</h1>
+						<p>Only In Theatres May 24, 2024</p>
+						<a class="btn btn-primary" href="https://youtu.be/FVswuip0-co?si=lw1wok1Zn4UDB9zW" target=_blank role="button">Watch Trailer</a>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/banner02.jpg" class="d-block w-100" alt="BEETLEJUICE BEETLEJUICE"/>
+					<div class="carousel-caption">
+						<h1 class="carousel-title">BEETLEJUICE BEETLEJUICE</h1>
+						<p>Only In Theatres September 5, 2024</p>
+						<a class="btn btn-primary" href="https://youtu.be/e6yDanmWI1E?si=MrSJT0oGyal4mC7J" target=_blank role="button">Watch Trailer</a>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/banner03.jpg" class="d-block w-100" alt="JOKER: FOLIE À DEUX"/>
+					<div class="carousel-caption">
+						<h1 class="carousel-title">JOKER: FOLIE À DEUX</h1>
+						<p>Only In Theatres October 4, 2024</p>
+						<a class="btn btn-primary" href="https://youtu.be/xy8aJw1vYHo?si=M7VwlDnAiczL3Qu9" target=_blank role="button">Watch Trailer</a>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#hero-banner" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#hero-banner" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</header>
+		<section class="list-1-container">
+			<h1 class="list-1-title">TOP MOVIES</h1>
+			<div class="list-1-wrapper">
+				<div class="list-cards">
+					<div class="list-item">
+						<img src="images/movies/mov01.jpg" class="img-fluid" alt="Dune: Part Two"/>
+						<p class="list-info">Dune: Part Two</p>
+					</div>
+					<div class="list-item">
+						<img src="images/movies/mov02.jpg" class="img-fluid" alt="Aquaman and the Lost Kingdom"/>
+						<p class="list-info">Aquaman and the Lost Kingdom</p>
+					</div>
+					<div class="list-item">
+						<img src="images/movies/mov03.jpg" class="img-fluid" alt="Wonka"/>
+						<p class="list-info">Wonka</p>
+					</div>
+					<div class="list-item">
+						<img src="images/movies/mov04.jpg" class="img-fluid" alt="Barbie"/>
+						<p class="list-info">Barbie</p>
+					</div>
+					<div class="list-item">
+						<img src="images/movies/mov05.jpg" class="img-fluid" alt="Blue Beetle"/>
+						<p class="list-info">Blue Beetle</p>
+					</div>
+					<div class="list-item">
+						<img src="images/movies/mov06.jpg" class="img-fluid" alt="The Color Purple"/>
+						<p class="list-info">The Color Purple</p>
+					</div>
+					<div class="list-item">
+						<img src="images/movies/mov07.jpg" class="img-fluid" alt="Shazam! Fury of the Gods"/>
+						<p class="list-info">Shazam! Fury of the Gods</p>
+					</div>
+					<div class="list-item">
+						<img src="images/movies/mov08.jpg" class="img-fluid" alt="DC League of Super-Pets"/>
+						<p class="list-info">DC League of Super-Pets</p>
+					</div>
+					<div class="list-item">
+						<img src="images/movies/mov09.jpg" class="img-fluid" alt="Creed III"/>
+						<p class="list-info">Creed III</p>
+					</div>
+				</div>
+				<a href="movies.html"><h4 class="all-movies-link">More</h4></a>
+			</div>
+		</section>
+		<section class="list-2-container">
+			<a href="tvshows.html"><h1 class="list-2-title">TV SERIES<i class="bi bi-chevron-right"></i></h1></a>
+			<div class="list-2-wrapper">
+				<div class="list-cards">
+					<div class="list-item">
+						<img src="images/tvshows/tv01.jpg" class="img-fluid" alt="Young Sheldon"/>
+						<p class="list-info">Young Sheldon</p>
+					</div>
+					<div class="list-item">
+						<img src="images/tvshows/tv11.jpg" class="img-fluid" alt="The Big Bang Theory"/>
+						<p class="list-info">The Big Bang Theory</p>
+					</div>
+					<div class="list-item">
+						<img src="images/tvshows/tv03.jpg" class="img-fluid" alt="Ted Lasso"/>
+						<p class="list-info">Ted Lasso</p>
+					</div>
+					<div class="list-item">
+						<img src="images/tvshows/tv04.jpg" class="img-fluid" alt="Harley Quinn"/>
+						<p class="list-info">Harley Quinn</p>
+					</div>
+					<div class="list-item">
+						<img src="images/tvshows/tv05.jpg" class="img-fluid" alt="The Voice!"/>
+		                <p class="list-info">The Voice!</p>
+					</div>
+					<div class="list-item">
+						<img src="images/tvshows/tv06.jpg" class="img-fluid" alt="Gossip Girl"/>
+						<p class="list-info">Gossip Girl</p>
+					</div>
+					<div class="list-item">
+						<img src="images/tvshows/tv07.jpg" class="img-fluid" alt="All American"/>
+						<p class="list-info">All American</p>
+					</div>
+					<div class="list-item">
+						<img src="images/tvshows/tv14.jpg" class="img-fluid" alt="The Middle"/>
+						<p class="list-info">The Middle</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="list-2-container">
+			<a href="games&apps.html"><h1 class="list-2-title">GAMES & APPS<i class="bi bi-chevron-right"></i></h1></a>
+			<div class="list-2-wrapper">
+				<div class="list-cards">
+					<div class="list-item">
+						<img src="images/games/game01.jpg" class="img-fluid" alt="Injustice 2"/>
+						<div class="list-info">
+							<p class="list-info-title">Injustice 2</p>
+							<p class="list-info-description">Video Games</p>
+						</div>
+					</div>
+					<div class="list-item">
+						<img src="images/games/game09.jpg" class="img-fluid" alt="Mortal Kombat XL"/>
+						<div class="list-info">
+							<p class="list-info-title">Mortal Kombat XL</p>
+							<p class="list-info-description">Video Games</p>
+						</div>
+					</div>
+					<div class="list-item">
+						<img src="images/games/game03.jpg" class="img-fluid" alt="Hitman 2"/>
+						<div class="list-info">
+							<p class="list-info-title">Hitman 2</p>
+							<p class="list-info-description">Video Games</p>
+						</div>
+					</div>
+					<div class="list-item">
+						<img src="images/games/game04.jpg" class="img-fluid" alt="DC Comics"/>
+						<div class="list-info">
+							<p class="list-info-title">DC Comics</p>
+							<p class="list-info-description">Mobile Apps</p>
+						</div>
+					</div>
+					<div class="list-item">
+						<img src="images/games/game05.jpg" class="img-fluid" alt="LEGO Worlds"/>
+						<div class="list-info">
+							<p class="list-info-title">LEGO Worlds</p>
+							<p class="list-info-description">Video Games</p>
+						</div>
+					</div>
+					<div class="list-item">
+						<img src="images/games/game06.jpg" class="img-fluid" alt="WB Studio Tour"/>
+						<div class="list-info">
+							<p class="list-info-title">WB Studio Tour</p>
+							<p class="list-info-description">Mobile Apps</p>
+						</div>
+					</div>
+					<div class="list-item">
+						<img src="images/games/game07.jpg" class="img-fluid" alt="CN Arcade"/>
+						<div class="list-info">
+							<p class="list-info-title">Cartoon Network Arcade</p>
+							<p class="list-info-description">Mobile Apps</p>
+						</div>
+					</div>
+					<div class="list-item">
+						<img src="images/games/game08.jpg" class="img-fluid" alt="Batman: The Telltale Series"/>
+						<div class="list-info">
+							<p class="list-info-title">Batman: The Telltale Series</p>
+							<p class="list-info-description">Video Games</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class ="footer">
+		<div class="footer-upper">
+			<div class="quick-links-container">
+				<ul class="quick-links">
+					<li class="quick-links-item"><a class="footer-links" href="#">About</a></li>
+					<li class="quick-links-item"><a class="footer-links" href="feedback.html">Feedback</a></li>
+				</ul>
+			</div>
+			<div class="social-links-container">
+				<ul class="social-links">
+					<li class="social-links-item">Social</li>
+					<li class="social-links-item"><a class="footer-links" href="https://web.facebook.com/warnerbrosent/?_rdc=1&_rdr" target=_blank><i class="fa-brands fa-facebook" title="Facebook"></i></a></li>
+					<li class="social-links-item"><a class="footer-links" href="https://twitter.com/Warnerbros/" target=_blank><i class="fa-brands fa-x-twitter" title="Twitter"></i></a></li>
+					<li class="social-links-item"><a class="footer-links" href="https://www.pinterest.com/warnerbrosent/" target=_blank><i class="fa-brands fa-pinterest" title="Pinterest"></i></a></li>
+					<li class="social-links-item"><a class="footer-links" href="https://www.instagram.com/warnerbrosentertainment/" target=_blank><i class="fa-brands fa-instagram" title="Instagram"></i></a></li>
+					<li class="social-links-item"><a class="footer-links" href="https://www.linkedin.com/company/warner-bros--entertainment/" target=_blank><i class="fa-brands fa-linkedin" title="LinkedIn"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-lower">
+			<div class="footer-address">
+				<p>4000 Warner Boulevard<br/>Burbank, CA 91522<br/>USA</p>
+			</div>
+			<div class="footer-logo">
+				<img src="images/logo.svg" alt="WarnerBros" width="70px" height="70px"/>
+			</div>
+			<div class="footer-copyright">
+				<p>TM © 2024 Warner Bros. Entertainment Inc.<br/>All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+	
+	<!--Bootstrap Popper and JS bundle-->
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
