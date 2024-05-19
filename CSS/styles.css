@@ -1,1 +1,381 @@
+/*Bootstrap and Font Awesome Icons*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
 
+
+*{
+	font-family:
+}
+.navbar{
+	position: sticky; /*sticky allows the following elements to stack below and not hide behind the navbar*/
+	top: 0;
+	z-index: 99;
+	font-size: 110%;
+}
+
+/*This changes the navbar toggler color to white using the rgb values in the stroke and border properties of the outline*/
+.navbar-toggler-icon{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler{
+	border: 1px solid white;
+}
+/*This changes the navbar toggler color to white using the rgb values in the stroke and border properties of the outline*/
+
+.nav-link{
+	color: #fff;
+}
+.nav-link:hover, .dropdown-item:hover{
+	color: #ffc200;
+}
+.nav-link-active{
+	border-bottom: 2px solid #ffc200;
+	color: #fff !important;
+}
+.form-control{
+	border-radius: 30px; /*any high figure since it has a maximum allowed radius*/
+}
+
+/*Customize bootstrap using external stylesheet*/
+.btn-outline-success{
+	border-radius: 50%;
+	background-color: #fff;
+	color: #000000;
+}
+.btn-outline-success:hover{
+	background-color: #ffc200;
+	border-color: #000000;
+	color: #000000;
+}
+.carousel-caption{
+	text-align: left;
+}
+.carousel-title{
+	font-weight: bold;
+}
+.btn-primary{
+	color: #000000;
+	background-color: #ffc200;
+	border: none;
+	font-size: 1.2em;
+	font-weight: bold;
+	border-radius: 0;
+}
+.list-1-container{
+	padding: 40px;
+}
+.list-1-title{
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+}
+.list-1-wrapper{
+	border-top: 2px solid black;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.movie-info-title{
+	color: #000000;
+	font-weight: bold;
+	padding: 10px 5px 0;
+}
+.all-movies-link{
+	color: black;
+	text-align: center;
+	margin-right: 42%;
+	margin-left: 42%;
+	padding: 10px 0;
+}
+.all-movies-link:hover{
+	color: #04006c;
+	background-color: #fff;
+	font-weight: bold;
+}
+.list-2-title{
+	display: inline;
+	padding-left: 20px;
+	padding-right: 40px;
+	font-weight: bold;
+	color: #04006c;
+	/*investigate*/
+	background: linear-gradient(to right, #ffc200 50%, #fff 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	transition: all .4s ease-out;
+}
+.list-2-title:hover{
+	color: #000000;
+	background-position: left bottom;
+	/*investigate*/
+}
+a{
+	text-decoration: none;
+}
+.list-2-container{
+	background-color: #c4c2bb;
+	position: relative; /*Why?*/
+	overflow: hidden; 
+	padding: 20px;
+	padding-bottom: 50px;
+	width: 100%;
+}
+.list-2-wrapper{
+	background-color: #fff;
+	margin-top: 20px;
+	width: 100%;
+}
+.list-cards{
+	display: flex;
+	justify-content: space-evenly;
+	gap: 30px;
+	padding: 25px 40px 10px;
+	width: 100%;
+	overflow-x: auto; /*Allows a scroller within the container*/
+	scroll-behavior: smooth;
+}
+.list-item{
+	width: 150px;
+}
+.img-fluid{
+	min-width: 100px !important;
+}
+.list-info{
+	padding: 10px 5px 0;
+	color: #000000;
+	font-weight: bold;
+}
+.list-info-description{
+	border-top: 1px solid black;
+	font-weight: normal;
+	font-size: 0.8em;
+}
+@media only screen and (max-device-width : 1024px) {
+	.footer{
+		width:100%;
+	}
+}
+.footer{
+	background-color: #000000;
+	color: #fff;
+	padding: 10px;
+	position: relative;
+}
+.quick-links{
+	display: flex;
+	list-style: none;
+	gap: 15px;
+}
+.social-links{
+	display: flex;
+	list-style: none;
+	gap: 20px;
+}
+.fa-brands{
+	font-size: 1.5em;
+}
+.footer-links{
+	color: #fff;
+	transition: all 0.2s ease;
+}
+.footer-links:hover{
+	color: #ffc200;
+}
+.footer-upper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10px 0;
+	border-bottom: 1px solid white;
+}
+.footer-lower{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 10px 10px;
+}
+.footer-logo{
+	margin-left: 70px;
+}
+.footer-copyright{
+	text-align: right;
+	width: 200px;
+}
+.featured-item-header{
+	background-color: #2b2b2b;
+	padding: 50px;
+}
+.featured-item-container{
+	padding: 20px 100px;
+	display: flex;
+	gap: 100px;
+	align-items: center;
+	background-color: #fff;
+}
+.featured-item-description{
+	color: #000000;
+}
+.featured-item-title{
+	font-weight: bold;
+	font-size: 2em;
+}
+@media (max-width: 990px) {
+	.featured-item-container {
+		flex-direction: column;
+	}
+	.collections-container{
+		flex-direction: column;
+	}
+	.studio-info-container{
+		flex-direction: column;
+	}
+	.featured-page-content{
+		flex-direction: column;
+	}
+	.carousel-caption{
+		max-height: 180px;
+	}
+}
+.grid-list-container{
+	overflow-x: hidden;
+	background-color: #fff;
+	padding: 40px 0;
+}
+.grid-list-title{
+	text-align: center;
+	color: black;
+}
+.grid-list{
+	overflow: hidden;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 50px 10px;
+	width: 100vw;
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(300px, 300px));
+	column-gap: 5px;
+	row-gap: 50px;
+	background-size: cover;
+}
+.grid-list-item{
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	background-color: #fff;
+}
+.grid-list-img{
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+	object-position: center;
+}
+.games-header{
+	background-color: #2b2b2b;
+}
+.games-header-info{
+	color: white;
+	padding: 20px 40px;
+}
+.games-header-description{
+	padding: 20px 0;
+	font-size: 1.1em;
+}
+.featured-page-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	padding: 30px;
+	gap: 40px;
+}
+.featured-page-section{
+	width: 33%;
+	color: #000000;
+}
+.feedback-form-container{
+	display: flex;
+	/*min-height: 100vh;*/
+	align-items: center;
+	justify-content: center;
+}
+.feedback-form{
+	max-width: 420px;
+	margin: 100px;
+	background-color: #c4c2bb;
+	border: 3px solid #000000;
+	border-radius: 5px;
+}
+.feedback-form-title{
+	padding: 10px 0;
+	text-transform: uppercase;
+	font-size: 1.75em;
+	font-weight: bold;
+	color: #000000;
+}
+.feedback-form form{
+	/*width: 100%;*/
+	text-align: center;
+	padding: 20px 30px;
+}
+.feedback-form-id{
+	/*position: relative;*/
+}
+.feedback-form-id input{
+	width: 100%;
+	height: 50px;
+	margin: 5px 0;
+	border: 1px solid black;
+	background-color: #fff;
+	padding: 0 15px;
+}
+.feedback-form textarea{
+	border: 1px solid black;
+	padding: 5px 15px;
+	width: 100%;
+	margin: 5px 0;
+	background-color: #fff;
+}
+.feedback-form button{
+	border: 1px solid black;
+	margin-top: 5px;
+	padding: 10px 0;
+	width: 100%;
+	background-color: #fff;
+	color: #000000;
+	font-size: 110%;
+	font-weight: bold;
+}
+.feedback-form button:hover{
+	background-color: #04006c;
+	color: #fff;
+	transition: all 0.2s ease;
+}
+.frequently-asked-questions{
+	border-top: 2px solid black;
+	margin: 20px;
+	padding: 20px 20px 30px;
+}
+.faq-items{
+	padding-top: 20px;
+	color: black;
+}
+.faq-items dt{
+	font-size: 1.5em;
+}
+.faq-items dd{
+	padding: 10px 0;
+}
+.about-info{
+	border-bottom: 2px solid black;
+	margin: 20px 30px;
+	color: black;
+}
+.studio-info-container{
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+.studio-info{
+	width: 50%;
+}
